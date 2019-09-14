@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,7 @@
 		846332B3223F7C89003E6336 /* home_favourite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463329B223F7C89003E6336 /* home_favourite@2x.png */; };
 		846332B4223F7C89003E6336 /* home_favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463329C223F7C89003E6336 /* home_favourite.png */; };
 		846332B5223F7C89003E6336 /* placeholder_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8463329D223F7C89003E6336 /* placeholder_photo@3x.png */; };
+		DC2BED1D232CDA9400BFDCD0 /* AddEditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2BED1C232CDA9400BFDCD0 /* AddEditContactViewController.swift */; };
 		DC6A35ED232BD50E002B6A69 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6A35EC232BD50E002B6A69 /* AppConstants.swift */; };
 		DC6A35EF232BD57A002B6A69 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6A35EE232BD57A002B6A69 /* Contact.swift */; };
 		DC6A35F3232BD624002B6A69 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6A35F2232BD624002B6A69 /* ContactCell.swift */; };
@@ -79,6 +80,7 @@
 		8463329C223F7C89003E6336 /* home_favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_favourite.png; sourceTree = "<group>"; };
 		8463329D223F7C89003E6336 /* placeholder_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder_photo@3x.png"; sourceTree = "<group>"; };
 		9E81B239D7046F84D07E3F35 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		DC2BED1C232CDA9400BFDCD0 /* AddEditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditContactViewController.swift; sourceTree = "<group>"; };
 		DC6A35EC232BD50E002B6A69 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		DC6A35EE232BD57A002B6A69 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		DC6A35F2232BD624002B6A69 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
@@ -176,7 +178,6 @@
 				81F1D8D64B5499136BA1CEA9 /* Pods-Contacts.debug.xcconfig */,
 				9E81B239D7046F84D07E3F35 /* Pods-Contacts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,6 +203,7 @@
 				DC6A35F1232BD5F0002B6A69 /* UITableViewCells */,
 				844B9282223766DB00BF79DE /* ContactsListViewController.swift */,
 				846137C4220555E9009194EA /* ContactDetailsViewController.swift */,
+				DC2BED1C232CDA9400BFDCD0 /* AddEditContactViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -386,6 +388,7 @@
 				DC6A35ED232BD50E002B6A69 /* AppConstants.swift in Sources */,
 				DCB0A61B232CBA1F00C51CAD /* APIManager.swift in Sources */,
 				DCB0A61D232CBC1200C51CAD /* NetworkRequestViewModel.swift in Sources */,
+				DC2BED1D232CDA9400BFDCD0 /* AddEditContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

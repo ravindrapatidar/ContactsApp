@@ -118,4 +118,10 @@ class ContactDetailsViewController: UIViewController {
 
     }
 
+    
+    @IBAction func editContacts(_ sender: Any) {
+        
+        
+    }
+    
 }

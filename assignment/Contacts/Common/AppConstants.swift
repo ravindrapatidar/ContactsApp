@@ -9,5 +9,7 @@
 import Foundation
 
 struct AppConstants {
-    static let contactURL = "https://gojek-contacts-app.herokuapp.com/contacts.json"
+    
+    static let baseURL = "http://gojek-contacts-app.herokuapp.com"
+    static let contactURL = baseURL + "/contacts.json"
 }

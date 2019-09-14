@@ -106,6 +106,15 @@ class ContactsListViewController: UIViewController, UITableViewDataSource, UITab
         if segue.identifier == "viewContact", let destination = segue.destination as? ContactDetailsViewController {
             destination.contactURL = selectedContactURL
         }
+        if segue.identifier == "AddEditContact", let destination = segue.destination as? ContactDetailsViewController {
+            
+        }
+        
+    }
+    
+    
+    @IBAction func addContact(_ sender: Any) {
+        
     }
 }
 
